@@ -59,7 +59,7 @@ var maximalRectangle = function(matrix) {
         }
       }
     } else {
-      arr.push([stat,end])
+      arr.push([[stat,end]])
       maxRect(arr,result, n++)
     }
     while (arr.length > 1) {
